@@ -118,7 +118,7 @@ y='y'
 while True:
     if y=='y':
         #获取随机答案
-        answer='50'
+        answer=getAnswer()
         #检测答案用print(answer)
         #轮数，次数，正确轮数
         round = 1
